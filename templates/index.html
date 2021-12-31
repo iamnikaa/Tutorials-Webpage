@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Structural Elements Design Tutorials Database</title>
+        <script src="./static/script.js"></script>
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Element Design Tutorials Database</h1>
+        </div>
+        <div class="tut_table">
+            <table class="global_table">
+                <thead class="table_head">
+                    <tr class="table_headings">
+                        <th>ID</th>
+                        <th>Tutorials</th>
+                        <th>References</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody class="table_body">
+                    <tr class="input_rows">
+                        <td><label for="tutorial"></label>
+                            <input type="url" id="tutorial" name="tutorial">
+                        </td>
+                        <td><label for="reference"></label>
+                            <input type="url" id="reference" name="reference">
+                        </td>
+                        <td class="date_field" id="date_field"></td>
+                        <td><button onclick="addtut()" id="Addbutton">Add</button></td>
+                        <td><button onclick="remtut()" id="Delbutton">Remove</button></td>
+                    </tr></br>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
+
+

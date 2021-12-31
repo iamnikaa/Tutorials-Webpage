@@ -1,0 +1,32 @@
+h1{
+    display: block;
+    color: grey;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* .table_head .table_body{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+} */
+
+td{
+    border: 1px solid grey;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    font-size: large;
+    border: 1px solid grey;
+    text-align: left;
+    padding: 8px;                                                                           
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
